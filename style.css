@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+body > div {
+    padding: 0 15%;
+}
+
+.header,
+.under-header,
+.footer {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+}
+
+.header {
+    padding-top: 12px;
+}
+
+.under-header {
+    padding-top: 10%;
+    padding-bottom: 10%;;
+    flex: 1 0 auto;
+}
+
+.head-link-container {
+    margin-left: auto;
+    display: flex;
+    gap: 26px;
+}
+
+.header-link,
+.intro-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro-text,
+.title-img {
+    flex: 1;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.title-img {
+    background-color: grey;
+    color: white;
+}
+
+.sign-up {
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.mid-title {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin: 40px;
+}
+
+.img-container {
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    color: grey;
+}
+
+.portrait {
+    height: 120px;
+    width: auto;
+    border:2px solid #3882f6;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.testimonial {
+    margin: 48px 0;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.attribution {
+    text-align: right;
+    font-weight: bold;
+}
+
+.action-call {
+    display: flex;
+    background-color: #3882f6;
+    margin: 5% 10%;
+    padding: 28px 48px;
+    color: white;
+    border-radius: 10px;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-subtext {
+    font-size: 18px;
+}
+
+.action-button {
+    margin-left: auto;
+}
+
+#action-sign {
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.footer {
+    font-size: 18px;
+    justify-content: center;
+    padding: 28px;
+}
